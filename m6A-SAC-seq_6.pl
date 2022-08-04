@@ -77,7 +77,7 @@ my $HELP = '
 ';
 
 ## Version Infromation
-my $version = "    The 6th Step, version 1.1,  2021-02-01";
+my $version = "    The 6th Step, version 1.4,  2022-08-05";
 
 ## Keys and Values
 if ($#ARGV   == -1)   { say  "\n$HELP\n";  exit 0;  }       ## when there are no any command argumants.
