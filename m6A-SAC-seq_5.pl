@@ -20,7 +20,7 @@ my $mismatch_g = '';  ## such as 0.1
 my $HELP = '
         ------------------------------------------------------------------------------------------------------------------------------------------------------
         ------------------------------------------------------------------------------------------------------------------------------------------------------
-        Step 6: Mapping reads to the reference genome by using 6 softwares (mappers or aligners): 
+        Step 5: Mapping reads to the reference genome by using 6 softwares (mappers or aligners): 
                 Kallisto, Salmon, STAR, HISAT2, Subjunc, and GSNAP.
 
                 And assess the quality of BAM files to identify possible mapping errors or biases by using 14 softwares:
@@ -81,7 +81,7 @@ my $HELP = '
 ';
 
 ## Version Infromation
-my $version = "    The 5th Step, version 1.1,  2021-02-01";
+my $version = "    The 5th Step, version 1.4,  2022-08-05";
 
 ## Keys and Values
 if ($#ARGV   == -1)   { say  "\n$HELP\n";  exit 0;  }       ## when there are no any command argumants.
