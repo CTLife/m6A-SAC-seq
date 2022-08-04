@@ -17,7 +17,7 @@ my $output_g = '';  ## such as "4-SE-RC"
 my $HELP = '
         ------------------------------------------------------------------------------------------------------------------------------------------------------
         ------------------------------------------------------------------------------------------------------------------------------------------------------
-        Step 3: Reverse-complement of R1 or R2 of paired-end reads by using reformat.sh of BBMap. 
+        Step 4: Reverse-complement of R1 or R2 of paired-end reads by using reformat.sh of BBMap. 
                 And directly assess the quality of raw reads to identify possible experimental and sequencing errors or biases 
                 by using 4 softwares: FastQC, fastp, FastQ_Screen, and MultiQC.
      
@@ -56,7 +56,7 @@ my $HELP = '
 ';
 
 ## Version Infromation
-my $version = "    The 4th Step, version 1.1,  2021-02-01.";
+my $version = "    The 4th Step, version 1.4,  2022-08-05.";
 
 ## Keys and Values
 if ($#ARGV   == -1)   { say  "\n$HELP\n";  exit 0;  }       ## when there are no any command argumants.
